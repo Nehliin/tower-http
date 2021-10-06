@@ -275,6 +275,10 @@ pub mod follow_redirect;
 #[cfg_attr(docsrs, doc(cfg(feature = "metrics")))]
 pub mod metrics;
 
+#[cfg(feature = "request-id")]
+#[cfg_attr(docsrs, doc(cfg(feature = "request-id")))]
+pub mod request_id;
+
 pub mod classify;
 pub mod services;
 
